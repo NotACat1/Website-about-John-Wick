@@ -1,12 +1,28 @@
 const vh = window.innerHeight / 100;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
+// Анимация Прелоудера
+let tl = gsap.timeline();
+function ready() {
+  tl.to(".PreloaderBlock__text_transparent", { duration: 1,  width: "100%", repeat: -1, yoyo: true });
+}
+
+document.addEventListener("DOMContentLoaded", ready);
+
+let t2 = gsap.timeline();
 // Анимация появление заголовка
-var TimeLineHeader = gsap.timeline();
-TimeLineHeader.from(".header__title", { y: '15vh', duraction: 1 }, 0);
-TimeLineHeader.fromTo(".header__title", { opacity: 0, duraction: 1 }, { opacity: 1 }, 0);
-TimeLineHeader.from(".header__subtitle", { y: '15vh', duraction: 1 }, 1);
-TimeLineHeader.fromTo(".header__subtitle", { opacity: 0, duraction: 1 }, { opacity: 1 }, 1);
+let TimeLineHeader = gsap.timeline();
+window.onload = function() {
+  tl.pause();
+  t2.to(".PreloaderBlock__text_transparent", { duration: 1, width: "100%" });
+  t2.to(".PreloaderBlock", { duration: 1.2, y: '-130vh' }, 1);
+  t2.to(".PreloaderBlock", { duration: 0, display: "none" }, 2.2);
+  TimeLineHeader.fromTo(".header__img", { scale: 1.3, duraction: .5 }, { scale: 1 }, 2.2);
+  TimeLineHeader.from(".header__title", { y: '15vh', duraction: 1 }, 2.7);
+  TimeLineHeader.fromTo(".header__title", { opacity: 0, duraction: 1 }, { opacity: 1 }, 2.7);
+  TimeLineHeader.from(".header__subtitle", { y: '15vh', duraction: 1 }, 3.7);
+  TimeLineHeader.fromTo(".header__subtitle", { opacity: 0, duraction: 1 }, { opacity: 1 }, 3.7);
+};
 
 // Анимация исчезновения и появления секций
 gsap.fromTo("#header", { opacity: 1 }, { opacity: 0, scrollTrigger: { trigger: '#header', start: 'bottom 20%', end: 'bottom top', scrub: true }});
