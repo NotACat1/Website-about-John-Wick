@@ -1,0 +1,9 @@
+.PreloaderBlock__Preloader {
+  width: calc(var(--index) * 25);
+  height: calc(var(--index) * 25);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #000 calc(var(--index) * .5 * var(--text-factor)) solid;
+  background-color: white;
+}

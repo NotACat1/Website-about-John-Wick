@@ -1,0 +1,8 @@
+.footer__contacts {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+.main__AudioIframe {
+  width: 100%;
+  height: 90vh;
+  border: none;
+  margin-top: calc(var(--index) * 1.2);
+}

@@ -1,0 +1,6 @@
+.footer {
+  background-color: #262d33;
+  color: #fff;
+  padding-top: calc(var(--index) * 1.2);
+  padding-bottom: calc(var(--index) * 1.2);
+}

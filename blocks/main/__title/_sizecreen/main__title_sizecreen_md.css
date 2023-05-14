@@ -1,0 +1,5 @@
+.main__title_sizecreen_md {
+  position: static;
+  text-align: center;
+  margin-bottom: calc(var(--index) * 1.2);
+}

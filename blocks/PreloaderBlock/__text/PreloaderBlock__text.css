@@ -1,0 +1,8 @@
+.PreloaderBlock__text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #d8d8d8;
+  font-size: calc(var(--index) * 3 * var(--text-factor));
+  font-weight: 700;
+  margin-bottom: 0;
+}

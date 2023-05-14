@@ -1,0 +1,14 @@
+.header__column {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.header__column:first-of-type {
+  border-right: 1px solid #fff;
+}
+
+.header__column:last-of-type {
+  border-left: 1px solid #fff;
+}

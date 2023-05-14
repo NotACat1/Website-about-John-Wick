@@ -1,0 +1,10 @@
+.PreloaderBlock__text_transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  font-size: calc(var(--index) * 3 * var(--text-factor));
+  font-weight: 700;
+  width: 0;
+  z-index: 50000;
+}

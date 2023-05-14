@@ -1,0 +1,13 @@
+.header__title {
+  font-family: 'Ubuntu', serif;
+  font-size: calc(var(--index) * 2.6 * var(--text-factor));
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: calc(var(--index) * .45);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: calc(var(--index) * 1.2);
+  text-shadow: 0 0 calc(var(--index) * .5) #000;
+  opacity: 0;
+}

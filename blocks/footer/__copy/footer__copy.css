@@ -1,0 +1,8 @@
+.footer__copy {
+  font-family: 'Lora', serif;
+  font-size: calc(var(--index) * .85 * var(--text-factor));
+  font-weight: 500;
+  line-height: 1.4;
+  margin-left: calc(var(--index) * 1.8);
+  margin-bottom: 0;
+}

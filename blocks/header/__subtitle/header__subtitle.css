@@ -1,0 +1,11 @@
+.header__subtitle {
+  font-family: 'Ubuntu', serif;
+  font-size: calc(var(--index) * 1.2 * var(--text-factor));
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: calc(var(--index) * .25);
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 0 calc(var(--index) * .5) #000;
+  opacity: 0;
+}

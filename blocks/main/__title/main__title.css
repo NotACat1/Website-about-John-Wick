@@ -1,0 +1,12 @@
+.main__title {
+  top: 0;
+  left: 0;
+  padding: 0 calc(var(--index) * 1);
+  position: sticky;
+  font-family: 'Ubuntu', serif;
+  font-size: calc(var(--index) * 1.5 * var(--text-factor));
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: calc(var(--index) * .1);
+  margin-bottom: 0;
+}

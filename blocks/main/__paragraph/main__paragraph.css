@@ -1,0 +1,11 @@
+.main__paragraph {
+  font-family: 'Lora', serif;
+  font-size: calc(var(--index) * 1 * var(--text-factor));
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: calc(var(--index) * 1.5);
+}
+
+.main__paragraph:last-of-type {
+  margin-bottom: 0;
+}

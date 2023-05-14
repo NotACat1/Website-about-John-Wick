@@ -1,0 +1,8 @@
+.footer__contact {
+  list-style-type: none;
+  margin-right: calc(var(--index) * .65 * var(--text-factor));
+}
+
+.footer__contact:last-of-type {
+  margin-right: calc(var(--index) * 1.8);
+}

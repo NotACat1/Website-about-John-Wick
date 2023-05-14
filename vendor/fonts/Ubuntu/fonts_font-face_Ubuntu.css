@@ -1,0 +1,81 @@
+/* Подключение семейство шрифтов Ubuntu */
+
+/* 300  — Ubuntu-Light */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntulight.woff2) format('woff2'),
+       url(./ubuntulight.woff) format('woff'),
+       url(./ubuntulight.ttf) format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* 300 italic — Ubuntu-LightItalic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntulightitalic.woff2) format('woff2'),
+       url(./ubuntulightitalic.woff) format('woff'),
+       url(./ubuntulightitalic.ttf) format('ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* 400  — Ubuntu */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntu.woff2) format('woff2'),
+       url(./ubuntu.woff) format('woff'),
+       url(./ubuntu.ttf) format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 400 italic — Ubuntu-Italic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntuitalic.woff2) format('woff2'),
+       url(./ubuntuitalic.woff) format('woff'),
+       url(./ubuntuitalic.ttf) format('ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* 500  — Ubuntu-Medium */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntumedium.woff2) format('woff2'),
+       url(./ubuntumedium.woff) format('woff'),
+       url(./ubuntumedium.ttf) format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* 500 italic — Ubuntu-MediumItalic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntumediumitalic.woff2) format('woff2'),
+       url(./ubuntumediumitalic.woff) format('woff'),
+       url(./ubuntumediumitalic.ttf) format('ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* 700 — Ubuntu-Bold */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntubold.woff2) format('woff2'),
+       url(./ubuntubold.woff) format('woff'),
+       url(./ubuntubold.ttf) format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 700 italic — Ubuntu-BoldItalic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./ubuntubolditalic.woff2) format('woff2'),
+       url(./ubuntubolditalic.woff) format('woff'),
+       url(./ubuntubolditalic.ttf) format('ttf');
+  font-weight: 700;
+  font-style: italic;
+}

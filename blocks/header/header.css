@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  max-height: calc(var(--vh, 1vh) * 100);
+  background-image: url(../images/Poster-John-Wick-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

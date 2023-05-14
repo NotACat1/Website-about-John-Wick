@@ -1,0 +1,89 @@
+/* Подключение семейство шрифтов Lora */
+
+/* 400  — Lora-Regular */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-Regular.woff2) format('woff2'),
+       url(./Lora-Regular.woff) format('woff'),
+       url(./Lora-Regular.ttf) format('ttf'),
+       url(./Lora-Regular.otf) format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 400 italic — Lora-Italic */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-Italic.woff2) format('woff2'),
+       url(./Lora-Italic.woff) format('woff'),
+       url(./Lora-Italic.ttf) format('ttf'),
+       url(./Lora-Italic.otf) format('otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* 500  — Lora-Medium */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-Medium.woff2) format('woff2'),
+       url(./Lora-Medium.woff) format('woff'),
+       url(./Lora-Medium.ttf) format('ttf'),
+       url(./Lora-Medium.otf) format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* 500 italic — Lora-MediumItalic */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-MediumItalic.woff2) format('woff2'),
+       url(./Lora-MediumItalic.woff) format('woff'),
+       url(./Lora-MediumItalic.ttf) format('ttf'),
+       url(./Lora-MediumItalic.otf) format('otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* 600  — Lora-SemiBold */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-SemiBold.woff2) format('woff2'),
+       url(./Lora-SemiBold.woff) format('woff'),
+       url(./Lora-SemiBold.ttf) format('ttf'),
+       url(./Lora-SemiBold.otf) format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* 600 italic — Lora-SemiBoldItalic */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-SemiBoldItalic.woff2) format('woff2'),
+       url(./Lora-SemiBoldItalic.woff) format('woff'),
+       url(./Lora-SemiBoldItalic.ttf) format('ttf'),
+       url(./Lora-SemiBoldItalic.otf) format('otf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* 700  — Lora-Bold */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-Bold.woff2) format('woff2'),
+       url(./Lora-Bold.woff) format('woff'),
+       url(./Lora-Bold.ttf) format('ttf'),
+       url(./Lora-Bold.otf) format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 700 italic — Lora-BoldItalic */
+@font-face {
+  font-family: 'Lora';
+  src: url(./Lora-BoldItalic.woff2) format('woff2'),
+       url(./Lora-BoldItalic.woff) format('woff'),
+       url(./Lora-BoldItalic.ttf) format('ttf'),
+       url(./Lora-BoldItalic.otf) format('otf');
+  font-weight: 700;
+  font-style: italic;
+}

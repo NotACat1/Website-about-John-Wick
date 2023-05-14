@@ -1,0 +1,11 @@
+.footer__contact-a {
+  font-size: calc(var(--index) * 1.5 * var(--text-factor));
+  text-decoration: none;
+  color: #fff;
+  width: fit-content;
+  transition: color .5s ease-in-out;
+}
+
+.footer__contact-a:hover {
+  color: #929292;
+}
